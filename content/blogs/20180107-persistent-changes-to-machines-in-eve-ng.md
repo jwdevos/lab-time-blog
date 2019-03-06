@@ -2,6 +2,7 @@
 date: 2018-01-07 20:04:04+00:00
 title: Persistent changes to machines in Eve-NG
 url: /blogs/20180107-persistent-changes-to-machines-in-eve-ng/
+page_id: _20180107_persistent_changes_to_machines_in_eve_ng
 featured_image: /img/posts/20180107-persistent-changes-to-machines-in-eve-ng/logo.png
 description: "I ran into the need to make persistent changes to a base image used in Eve-NG. I figured out how to use the Eve-NG machine itself to make these changes."
 tags:

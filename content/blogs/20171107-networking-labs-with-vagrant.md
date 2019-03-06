@@ -2,6 +2,7 @@
 date: 2017-11-07 00:05:38+00:00
 title: Networking Labs with Vagrant
 url: /blogs/20171107-networking-labs-with-vagrant/
+page_id: _20171107_networking_labs_with_vagrant
 featured_image: /img/posts/20171107-networking-labs-with-vagrant/vagrant.png
 description: "Vagrant allows quick setup and teardown of labs containing multiple VM's. For a network engineer developing automation code it is a tool that assists the effort"
 categories:

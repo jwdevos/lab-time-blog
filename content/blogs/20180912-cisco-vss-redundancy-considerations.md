@@ -2,6 +2,7 @@
 date: 2018-09-12 23:33:50+00:00
 title: Cisco VSS Redundancy Considerations
 url: /blogs/20180912-cisco-vss-redundancy-considerations/
+page_id: _20180912_cisco_vss_redundancy_considerations
 featured_image: /img/posts/20180912-cisco-vss-redundancy-considerations/logo.png
 description: "I had to perform a familiar thought experiment about network redundancy using Cisco VSS for a pair of distribution switches."
 tags:

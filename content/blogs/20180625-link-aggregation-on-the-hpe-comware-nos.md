@@ -2,6 +2,7 @@
 date: 2018-06-25 14:54:59+00:00
 title: Link aggregation on the HPE Comware NOS
 url: /blogs/20180625-link-aggregation-on-the-hpe-comware-nos/
+page_id: _20180625_link_aggregation_on_the_hpe_comware_nos
 featured_image: /img/posts/20180625-link-aggregation-on-the-hpe-comware-nos/comware.png
 description: "The behaviour of link aggregation on Comware switches is unusual. I figure the knowledge I gained is worth sharing."
 tags:

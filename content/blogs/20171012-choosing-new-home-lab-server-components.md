@@ -2,6 +2,7 @@
 date: 2017-10-12 19:55:50+00:00
 title: Choosing new home lab server components
 url: /blogs/20171012-choosing-new-home-lab-server-components/
+page_id: _20171012_choosing_new_home_lab_server_components
 featured_image: /img/posts/20171012-choosing-new-home-lab-server-components/logo-1.png
 description: "I've recently built a new home lab server. My decision process for choosing the components might help others so read on for more details."
 tags:

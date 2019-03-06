@@ -2,6 +2,7 @@
 date: 2018-11-03 23:45:21+00:00
 title: Announcing Some Lab Time Changes
 url: /blogs/20181103-announcing-some-lab-time-changes/
+page_id: _20181103_announcing_some_lab_time_changes
 featured_image: /img/posts/20181103-announcing-some-lab-time-changes/hugo.jpg
 description: "Somewhere in the following weeks I will be trying to migrate this blog away from WordPress to a static site construction"
 tags:

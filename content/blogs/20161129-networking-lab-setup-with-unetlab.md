@@ -2,6 +2,7 @@
 date: 2016-11-29 09:40:57+00:00
 title: Networking lab setup with UNetLab
 url: /blogs/20161129-networking-lab-setup-with-unetlab/
+page_id: _20161129_networking_lab_setup_with_unetlab
 featured_image: /img/posts/20161129-networking-lab-setup-with-unetlab/unetlab-logo.png
 description: "Unetlab is a Linux distro that allows for building networking labs. It can be seen as a hypervisor for software that's usually run on networking gear."
 tags:

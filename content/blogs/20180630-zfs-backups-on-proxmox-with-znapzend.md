@@ -2,6 +2,7 @@
 date: 2018-06-30 13:19:38+00:00
 title: ZFS backups on Proxmox with ZnapZend
 url: /blogs/20180630-zfs-backups-on-proxmox-with-znapzend/
+page_id: _20180630_zfs_backups_on_proxmox_with_znapzend
 featured_image: /img/posts/20180630-zfs-backups-on-proxmox-with-znapzend/logo.jpg
 description: "I found a nice tool named ZnapZend. It manages snapshots and replication of ZFS datasets. The install on Proxmox is complex, so read on to learn how to do it."
 tags:

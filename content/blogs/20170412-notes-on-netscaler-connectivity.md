@@ -2,6 +2,7 @@
 date: 2017-04-12 17:24:12+00:00
 title: Notes on NetScaler connectivity
 url: /blogs/20170412-notes-on-netscaler-connectivity/
+page_id: _20170412_notes_on_netscaler_connectivity
 featured_image: /img/posts/20170412-notes-on-netscaler-connectivity/logo-1.png
 description: "I've had to do some work on Citrix NetScaler boxes lately and I've discovered a couple of things that are worth elaborating on."
 tags:

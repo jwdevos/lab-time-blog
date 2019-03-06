@@ -2,6 +2,7 @@
 date: 2017-06-19 11:06:13+00:00
 title: Ansible inventory considerations
 url: /blogs/20170619-ansible-inventory-considerations/
+page_id: _20170619_ansible_inventory_considerations
 featured_image: /img/posts/20170619-ansible-inventory-considerations/ansible_logo.png
 description: "Recently I've been making my first steps with Ansible. This article is about a couple of different choices you can make regarding the inventory files."
 tags:

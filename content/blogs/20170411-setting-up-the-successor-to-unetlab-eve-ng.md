@@ -2,6 +2,7 @@
 date: 2017-04-11 00:08:17+00:00
 title: 'Setting up the successor to UnetLab: EVE-NG!'
 url: /blogs/20170411-setting-up-the-successor-to-unetlab-eve-ng/
+page_id: _20170411_setting_up_the_successor_to_unetlab_eve_ng
 featured_image: /img/posts/20170411-setting-up-the-successor-to-unetlab-eve-ng/logo.png
 description: "EVE-NG is a Linux distro that allows for building networking labs. It can be seen as a hypervisor for software that's usually run on networking gear."
 tags:

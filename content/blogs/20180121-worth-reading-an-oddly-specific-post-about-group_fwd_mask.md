@@ -2,6 +2,7 @@
 date: 2018-01-21 00:29:52+00:00
 title: 'Worth Reading: An oddly specific post about group_fwd_mask'
 url: /blogs/20180121-worth-reading-an-oddly-specific-post-about-group_fwd_mask/
+page_id: _20180121_worth_reading_an_oddly_specific_post_about_group_fwd_mask
 description: "Worth Reading: An oddly specific post about group_fwd_mask"
 tags:
 - linux

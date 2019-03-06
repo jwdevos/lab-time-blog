@@ -2,6 +2,7 @@
 date: 2017-06-21 08:22:01+00:00
 title: Ansible and Cisco IOS intro
 url: /blogs/20170621-ansible-and-cisco-ios-intro/
+page_id: _20170621_ansible_and_cisco_ios_intro
 featured_image: /img/posts/20170621-ansible-and-cisco-ios-intro/ansible_logo.png
 description: "Demonstrating the basics of using Ansible to manage IOS devices."
 tags:

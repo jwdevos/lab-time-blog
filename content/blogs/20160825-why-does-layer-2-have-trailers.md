@@ -2,6 +2,7 @@
 date: 2016-08-25 15:57:45+00:00
 title: Why does layer 2 have trailers?
 url: /blogs/20160825-why-does-layer-2-have-trailers/
+page_id: _20160825_why_does_layer_2_have_trailers
 description: "A student asked me a question after seeing diagrams about ethernet headers and encapsulation: why does layer 2 have trailers? In this post, I will explain why."
 tags:
 - basics

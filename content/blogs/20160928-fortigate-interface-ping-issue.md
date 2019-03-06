@@ -2,6 +2,7 @@
 date: 2016-09-28 09:09:40+00:00
 title: FortiGate Interface Ping Issue
 url: /blogs/20160928-fortigate-interface-ping-issue/
+page_id: _20160928_fortigate_interface_ping_issue
 featured_image: /img/posts/20160928-fortigate-interface-ping-issue/fortinet.png
 description: "I came across some curious behavior on a FortiGate firewall. Interfaces won't send back an echo reply in some cases."
 tags:

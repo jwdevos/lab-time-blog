@@ -2,6 +2,7 @@
 date: 2018-09-23 15:44:05+00:00
 title: Default Gateway Behavior On Cisco Switches
 url: /blogs/20180923-default-gateway-behavior-on-cisco-switches/
+page_id: _20180923_default_gateway_behavior_on_cisco_switches
 featured_image: /img/posts/20180923-default-gateway-behavior-on-cisco-switches/logo-1.png
 description: "Cisco switches that do not perform routing can be confusing when setting up a default route or gateway. I had to figure it out and wrote this blog about it."
 tags:

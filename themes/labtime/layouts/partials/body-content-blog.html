@@ -29,7 +29,31 @@
             {{ partial "share-buttons.html" . }}
             <hr>
             <h5>Comments</h5>
-            will go here
+            {{ $comment_prefix := "/data/comments/" }}
+            {{ $post_comment_path := (print $comment_prefix $.Params.page_id) }}
+            {{ $test_comment_path := readDir $post_comment_path }}
+            <table width="75%">
+            {{ with $test_comment_path }}
+              {{ range (index $.Site.Data.comments $.Params.page_id) }}
+                  <tr>
+                    <td><b>Name: </b>{{ .name }}</td>
+                  </tr>
+                  <tr>
+                    <td><b>Site: </b><a href="https://{{ .site }}">{{ .site }}</a></td>
+                  </tr>
+                  <tr>
+                    <td><b>Posted on: </b>{{ .comment_date }}</td>
+                  </tr>
+                  <tr>
+                    <td>{{ .comment | markdownify}}</td>
+                  </tr>
+              {{ end }}
+            {{ else }}
+              <tr>
+                <td>Be the first to leave a comment!</td>
+              </tr>
+            {{ end }}
+            </table>
             <br><br>
           </div>
           <div class="col-md-1"></div>

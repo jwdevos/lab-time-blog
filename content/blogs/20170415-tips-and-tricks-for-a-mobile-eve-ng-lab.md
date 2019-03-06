@@ -2,6 +2,7 @@
 date: 2017-04-15 16:12:01+00:00
 title: Tips and tricks for a mobile EVE-NG lab
 url: /blogs/20170415-tips-and-tricks-for-a-mobile-eve-ng-lab/
+page_id: _20170415_tips_and_tricks_for_a_mobile_eve_ng_lab
 featured_image: /img/posts/20170415-tips-and-tricks-for-a-mobile-eve-ng-lab/logo.png
 description: "Doing all my networking lab work on a mobile device has faced me with some challenges. Most of them are now resolved so I'd like to share my findings."
 tags:

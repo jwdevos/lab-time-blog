@@ -2,6 +2,7 @@
 date: 2018-09-22 21:49:09+00:00
 title: Building A Network Automation Lab
 url: /blogs/20180922-building-a-network-automation-lab/
+page_id: _20180922_building_a_network_automation_lab
 featured_image: /img/posts/20180922-building-a-network-automation-lab/logo-2.png
 description: "This post is about building a networking lab in Eve-NG, using Cisco and Juniper, to try out any network automation tool you want, like Nornir and Ansible."
 tags:

@@ -2,6 +2,7 @@
 date: 2017-10-13 12:39:52+00:00
 title: Day of the Technology
 url: /blogs/20171013-day-of-the-technology/
+page_id: _20171013_day_of_the_technology
 featured_image: /img/posts/20171013-day-of-the-technology/diagram.png
 description: "Building a small network demonstration for schoolkids visiting our company."
 tags:

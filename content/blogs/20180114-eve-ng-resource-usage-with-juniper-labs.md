@@ -2,6 +2,7 @@
 date: 2018-01-14 01:17:12+00:00
 title: Eve-NG resource usage with Juniper labs
 url: /blogs/20180114-eve-ng-resource-usage-with-juniper-labs/
+page_id: _20180114_eve_ng_resource_usage_with_juniper_labs
 featured_image: /img/posts/20180114-eve-ng-resource-usage-with-juniper-labs/logo.png
 description: "Some lab images and topologies are very resource-intensive. You can't just run any lab you want on any host machine. For this reason, I thought it would be worthwhile to share some experience with running Juniper-based labs on Eve-NG."
 tags:

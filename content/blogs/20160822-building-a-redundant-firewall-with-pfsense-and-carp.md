@@ -2,6 +2,7 @@
 date: 2016-08-22 23:30:32+00:00
 title: Building a redundant firewall with PfSense and CARP
 url: /blogs/20160822-building-a-redundant-firewall-with-pfsense-and-carp/
+page_id: _20160822_building_a_redundant_firewall_with_pfsense_and_carp
 description: "This post is about building a redundant firewall with PfSense by utilizing CARP (Common Address Redundancy Protocol)."
 tags:
 - lab

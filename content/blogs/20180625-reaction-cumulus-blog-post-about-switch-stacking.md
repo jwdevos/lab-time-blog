@@ -2,6 +2,7 @@
 date: 2018-06-25 11:54:20+00:00
 title: 'Reaction: Cumulus blog post about switch stacking'
 url: /blogs/20180625-reaction-cumulus-blog-post-about-switch-stacking/
+page_id: _20180625_reaction_cumulus_blog_post_about_switch_stacking
 featured_image: /img/posts/20180625-reaction-cumulus-blog-post-about-switch-stacking/logo.png
 description: "Recently, Cumulus blogged that there is no need for switch stacking in campus networks. They raise some good points, but some important points are missing."
 tags:

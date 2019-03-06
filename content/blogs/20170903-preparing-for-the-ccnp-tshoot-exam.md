@@ -2,6 +2,7 @@
 date: 2017-09-03 23:59:21+00:00
 title: Preparing for the CCNP TSHOOT exam
 url: /blogs/20170903-preparing-for-the-ccnp-tshoot-exam/
+page_id: _20170903_preparing_for_the_ccnp_tshoot_exam
 featured_image: /img/posts/20170903-preparing-for-the-ccnp-tshoot-exam/ccnp_logo.jpg
 description: "I finished my CCNP R&S studies by passing the TSHOOT exam. This post provides my preparation strategy, my lab build and some tips."
 tags:

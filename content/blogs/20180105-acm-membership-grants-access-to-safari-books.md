@@ -2,6 +2,7 @@
 date: 2018-01-05 14:50:19+00:00
 title: ACM membership grants access to Safari Books
 url: /blogs/20180105-acm-membership-grants-access-to-safari-books/
+page_id: _20180105_acm_membership_grants_access_to_safari_books
 featured_image: /img/posts/20180105-acm-membership-grants-access-to-safari-books/acm-logo.gif
 description: "ACM professional membership now grants access to the Safari Books Online library. Read on for more details."
 tags:

@@ -2,6 +2,7 @@
 date: 2017-10-22 16:33:54+00:00
 title: Old Aerohive AP's for the home
 url: /blogs/20171022-old-aerohive-aps-for-the-home/
+page_id: _20171022_old_aerohive_aps_for_the_home
 featured_image: /img/posts/20171022-old-aerohive-aps-for-the-home/aerohive_logo.jpg
 description: "Finding the right wifi solution for your home can be bothersome. Aerohive's controllerless AP functioning combined with cheap 2nd hand gear are a fun solution."
 tags:

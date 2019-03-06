@@ -2,6 +2,7 @@
 date: 2018-01-09 12:38:25+00:00
 title: Comparing Juniper Wistar to Eve-NG
 url: /blogs/20180109-comparing-juniper-wistar-to-eve-ng/
+page_id: _20180109_comparing_juniper_wistar_to_eve_ng
 featured_image: /img/posts/20180109-comparing-juniper-wistar-to-eve-ng/logo.png
 description: "Wistar is a tool to build virtual labs with Juniper gear. This makes Wistar an alternative for Eve-NG. You can read all about how they compare right here."
 tags:

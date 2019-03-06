@@ -2,6 +2,7 @@
 date: 2017-04-09 21:37:31+00:00
 title: New places as a system administrator
 url: /blogs/20170409-new-places-as-a-system-administrator/
+page_id: _20170409_new_places_as_a_system_administrator
 featured_image: /img/posts/20170409-new-places-as-a-system-administrator/laptop.jpg
 description: "I've provided a checklist that is relevant to any existing IT infra that exists, with the hope of helping system administrators get a grip on new environments."
 tags:

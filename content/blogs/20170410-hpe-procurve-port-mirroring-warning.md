@@ -2,6 +2,7 @@
 date: 2017-04-10 15:46:46+00:00
 title: HPE ProCurve port mirroring warning
 url: /blogs/20170410-hpe-procurve-port-mirroring-warning/
+page_id: _20170410_hpe_procurve_port_mirroring_warning
 featured_image: /img/posts/20170410-hpe-procurve-port-mirroring-warning/logo.jpg
 description: "Words of warning about configuring port mirroring on switches that run the ProVision NOS."
 tags:

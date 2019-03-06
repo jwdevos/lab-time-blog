@@ -2,6 +2,7 @@
 date: 2018-09-20 15:23:33+00:00
 title: Running HAProxy and Let's Encrypt on Docker
 url: /blogs/20180920-running-haproxy-and-lets-encrypt-on-docker/
+page_id: _20180920_running_haproxy_and_lets_encrypt_on_docker
 featured_image: /img/posts/20180920-running-haproxy-and-lets-encrypt-on-docker/logo-3.png
 description: "Migrating reverse proxy with SSL offloading away from PfSense to a separate HAProxy server, making use of Let's Encrypt and Docker."
 tags:

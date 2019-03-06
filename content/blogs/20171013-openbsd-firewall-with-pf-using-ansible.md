@@ -2,6 +2,7 @@
 date: 2017-10-13 16:44:40+00:00
 title: OpenBSD firewall with pf using Ansible
 url: /blogs/20171013-openbsd-firewall-with-pf-using-ansible/
+page_id: _20171013_openbsd_firewall_with_pf_using_ansible
 featured_image: /img/posts/20171013-openbsd-firewall-with-pf-using-ansible/logo-2.png
 description: "I've created an Ansible project that can be used to configure and manage an OpenBSD firewall running pf and dhcpd."
 tags:

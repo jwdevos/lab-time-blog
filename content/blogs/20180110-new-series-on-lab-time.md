@@ -2,6 +2,7 @@
 date: 2018-01-10 18:39:37+00:00
 title: 'New: Series On Lab Time!'
 url: /blogs/20180110-new-series-on-lab-time/
+page_id: _20180110_new_series_on_lab_time
 featured_image: /img/posts/20180110-new-series-on-lab-time/logo.jpg
 description: "I'm proud to announce the release of my first two series on Lab Time!"
 tags:

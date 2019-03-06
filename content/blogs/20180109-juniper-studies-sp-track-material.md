@@ -2,6 +2,7 @@
 date: 2018-01-09 19:03:38+00:00
 title: 'Juniper Studies: SP track material'
 url: /blogs/20180109-juniper-studies-sp-track-material/
+page_id: _20180109_juniper_studies_sp_track_material
 featured_image: /img/posts/20180109-juniper-studies-sp-track-material/logo.png
 description: "This is my list of study material for the Juniper Service Provider certification track."
 tags:

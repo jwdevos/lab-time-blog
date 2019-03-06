@@ -2,6 +2,7 @@
 date: 2016-08-27 01:01:43+00:00
 title: Interop pizza night
 url: /blogs/20160827-interop-pizza-night/
+page_id: _20160827_interop_pizza_night
 featured_image: /img/posts/20160827-interop-pizza-night/logo.png
 description: "Two colleagues went to Interop Las Vegas 2016 and gave a pretty nice presentation about it. Here's a summary of some of the personal highlights for me."
 tags:

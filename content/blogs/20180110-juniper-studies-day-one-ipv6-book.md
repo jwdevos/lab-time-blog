@@ -2,6 +2,7 @@
 date: 2018-01-10 16:45:50+00:00
 title: 'Juniper Studies: Day One IPv6 book'
 url: /blogs/20180110-juniper-studies-day-one-ipv6-book/
+page_id: _20180110_juniper_studies_day_one_ipv6_book
 featured_image: /img/posts/20180110-juniper-studies-day-one-ipv6-book/logo.png
 description: "Day One: Exploring IPv6 is a short primer on IPv6 concepts and related configuration on Junos."
 tags:
