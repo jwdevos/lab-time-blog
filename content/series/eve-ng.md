@@ -1,6 +1,7 @@
 ---
 title: Eve-NG
 url: /series/eve-ng/
+type: plain
 description: "Series page for Eve-NG, a collection of my notes about this subject"
 ---
 

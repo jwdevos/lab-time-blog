@@ -1,7 +1,7 @@
 ---
 title: About
 url: /about/
-type: about
+type: plain
 description: "About page for Lab Time, a technology blog by Jaap de Vos"
 ---
 

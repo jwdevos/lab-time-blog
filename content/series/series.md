@@ -1,6 +1,7 @@
 ---
 title: Series
 url: /series/
+type: plain
 description: "Series page for Lab Time, a technology blog by Jaap de Vos"
 ---
 

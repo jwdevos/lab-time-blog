@@ -1,6 +1,7 @@
 ---
 title: Juniper Studies
 url: /series/juniper-studies/
+type: plain
 description: "Series page for Juniper Studies, a collection of my notes about this subject"
 ---
 
