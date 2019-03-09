@@ -2,3 +2,5 @@
 *
 # Except this file
 !.gitignore
+# And except yml files
+!*.yml
