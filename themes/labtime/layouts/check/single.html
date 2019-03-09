@@ -1,0 +1,4 @@
+{{ $dirs := readDir "/data/comments" }}
+{{ range $dirs }}
+  {{ .Name }}<br>
+{{ end }}

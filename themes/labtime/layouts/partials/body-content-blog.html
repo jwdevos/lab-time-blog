@@ -29,17 +29,23 @@
             {{ partial "share-buttons.html" . }}
             <hr>
             <h5>Comments</h5>
+            Leave a new comment below:<br><br>
+            
             {{ $comment_prefix := "/data/comments/" }}
             {{ $post_comment_path := (print $comment_prefix $.Params.page_id) }}
             {{ $test_comment_path := readDir $post_comment_path }}
+            <font size="2">
             <table width="75%">
+              <tr>
+                <td><hr></td>
+              </tr>
             {{ with $test_comment_path }}
               {{ range (index $.Site.Data.comments $.Params.page_id) }}
                   <tr>
-                    <td><b>Name: </b>{{ .name }}</td>
+                    <td><b>Name: </b>{{ .user_name }}</td>
                   </tr>
                   <tr>
-                    <td><b>Site: </b><a href="https://{{ .site }}">{{ .site }}</a></td>
+                    <td><b>Site: </b><a href="https://{{ .user_site }}">{{ .user_site }}</a></td>
                   </tr>
                   <tr>
                     <td><b>Posted on: </b>{{ .comment_date }}</td>
@@ -47,13 +53,13 @@
                   <tr>
                     <td>{{ .comment | markdownify}}</td>
                   </tr>
+                  <tr>
+                    <td><hr></td>
+                  </tr>
               {{ end }}
-            {{ else }}
-              <tr>
-                <td>Be the first to leave a comment!</td>
-              </tr>
             {{ end }}
             </table>
+            </font>
             <br><br>
           </div>
           <div class="col-md-1"></div>
