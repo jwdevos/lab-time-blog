@@ -32,10 +32,17 @@
             Leave a new comment below:<br><br>
             <center>
               comment shizzle<br><br>
+              
+              <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+              
+              
+              
+              
               <form id="commentform">
                 Name: <input type="text" id="fname"><br>
                 Site: <input type="text" id="fsite"><br>
                 Comment: <textarea type="text" name="fcomment" id="fcomment" value="Type your post here" cols="40" rows="5"></textarea><br>
+                <div class="g-recaptcha" data-sitekey="6Lc-Eq0UAAAAAAsLTvxRbS-XeknRSrnZorDw1kHU"></div>
                 <input type="button" value="Click me" onclick="msg()"><br>
               </form>
               
@@ -54,6 +61,12 @@
               arr = url.split("/")
               page_name = arr.slice(arr.length -2).join("")
               page_name = "_" + page_name.replace(/-/g, "_")
+              var postvar2 = {
+                  "user_name"    : "klaas",
+                  "user_site"    : "google.nl",
+                  "page_name"    : page_name,
+                  "comment_data" : "line 1 &\n line 2",
+              }
               
               //var json_upload = "json_name=" + JSON.stringify(postvar)
               var xmlhttp = new XMLHttpRequest()
