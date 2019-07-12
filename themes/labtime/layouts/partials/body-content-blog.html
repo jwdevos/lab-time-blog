@@ -54,22 +54,16 @@
               
               
               // shit fixen voor user feedback afhankelijk van 200 of 400
-              
+              // it can take some time for your comment to be processed due to cdn caching time
+
               var url = window.location.pathname
-              //var url = "http://localhost:1313/blogs/20181103-announcing-some-lab-time-changes/"
               var arr = new Array()
               arr = url.split("/")
               page_name = arr.slice(arr.length -2).join("")
               page_name = "_" + page_name.replace(/-/g, "_")
-              var postvar2 = {
-                  "user_name"    : "klaas",
-                  "user_site"    : "google.nl",
-                  "page_name"    : page_name,
-                  "comment_data" : "line 1 &\n line 2",
-              }
-              
-              //var json_upload = "json_name=" + JSON.stringify(postvar)
+
               var xmlhttp = new XMLHttpRequest()
+
               xmlhttp.onreadystatechange = function() {
                   if (xmlhttp.readyState == XMLHttpRequest.DONE) {
                       var output = JSON.parse(xmlhttp.responseText)
@@ -87,13 +81,15 @@
               }
               
               function msg() {
-                //var user_name = document.getElementById("fname").value
+                var response = grecaptcha.getResponse()
                 var postvar = {
-                    "user_name"    : document.getElementById("fname").value,
-                    "user_site"    : document.getElementById("fsite").value,
-                    "page_name"    : page_name,
-                    "comment_data" : document.getElementById("fcomment").value,
+                    "user_name"       : document.getElementById("fname").value,
+                    "user_site"       : document.getElementById("fsite").value,
+                    "page_name"       : page_name,
+                    "comment_data"    : document.getElementById("fcomment").value,
+                    "recaptcha_token" : response,
                 }
+
                 xmlhttp.open("POST", "https://api.lab-time.it/v1")
                 xmlhttp.setRequestHeader("Content-Type", "application/json")
                 xmlhttp.send(JSON.stringify(postvar))
