@@ -30,75 +30,70 @@
             <hr>
             <h5>Comments</h5>
             Leave a new comment below:<br><br>
-            <center>
-              comment shizzle<br><br>
-              
-              <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-              
-              
-              
-              
-              <form id="commentform">
-                Name: <input type="text" id="fname"><br>
-                Site: <input type="text" id="fsite"><br>
-                Comment: <textarea type="text" name="fcomment" id="fcomment" value="Type your post here" cols="40" rows="5"></textarea><br>
+            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+            <form>
+                <input type="button" value="show/hide comment form" onclick="show()" class="btn btn-outline-dark btn-sm"><br>
+            </form>
+            <div id="commentformblock" style="display: none">
+            <form id="commentform">
+                <div class="form-row">
+                    <div class="form-group col-md-1"></div>
+                    <div class="form-group col-md-5">
+                      <label for="fname">Name</label>
+                      <input type="text" id="fname" class="form-control form-control-sm" required>
+                      <small id="passwordHelpBlock" class="form-text text-muted">
+                        Required field, must be less than 100 characters
+                      </small>
+                    </div>
+                    <div class="form-group col-md-5">
+                      <label for="fsite">Site</label>  
+                      <input type="text" id="fsite" class="form-control form-control-sm">
+                      <small id="fsite-help" class="form-text text-muted">
+                        Optional field, must be less than 100 characters
+                      </small>
+                    </div>
+                    <div class="form-group col-md-1"></div>
+                  </div>
+                <div class="form-row">
+                  <div class="form-group col-md-1"></div>
+                    <div class="form-group col-md-10">
+                      <label for="fcomment">Comment</label>
+                      <textarea type="text" name="fcomment" id="fcomment" value="Type your post here" rows="14" class="form-control"></textarea>
+                      <small id="fcomment-help" class="form-text text-muted">
+                        Required field, must be less than 50000 characters. Comments may be formatted using <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a>
+                      </small>
+                    </div>
+                  <div class="form-group col-md-1"></div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group col-md-1"></div>
+                    <div class="form-group col-md-10">
                 <div class="g-recaptcha" data-sitekey="6Lc-Eq0UAAAAAAsLTvxRbS-XeknRSrnZorDw1kHU"></div>
-                <input type="button" value="Click me" onclick="msg()"><br>
-              </form>
-              
-              
-              <p id="demo"></p>
-              </center>
-              <script>
-              
-              
-              
-              // shit fixen voor user feedback afhankelijk van 200 of 400
-              // it can take some time for your comment to be processed due to cdn caching time
+              </div>
+              <div class="form-group col-md-1"></div>
+            </div>
 
-              var url = window.location.pathname
-              var arr = new Array()
-              arr = url.split("/")
-              page_name = arr.slice(arr.length -2).join("")
-              page_name = "_" + page_name.replace(/-/g, "_")
+                <div class="form-row">
+                  <div class="form-group col-md-1"></div>
+                  <div class="form-group col-md-10">
+                    <input type="button" value="submit comment" onclick="msg()" class="btn btn-outline-dark btn-sm"><br>
+                  </div>
+                  <div class="form-group col-md-1"></div>
+                </div>
 
-              var xmlhttp = new XMLHttpRequest()
-
-              xmlhttp.onreadystatechange = function() {
-                  if (xmlhttp.readyState == XMLHttpRequest.DONE) {
-                      var output = JSON.parse(xmlhttp.responseText)
-                      var ml = "HTTP response: " + output.statusCode + " "
-                      if (output.statusCode == 200) {
-                          ml = ml + "successful request"
-                      } else if (output.statusCode == 400) {
-                          ml = ml + "bad request"
-                      }
-                      ml = ml + "<br>"
-                      ml = ml + output.body
-                      document.getElementById("demo").innerHTML = ml
-                      
-                  }
-              }
+            </form>
+            <p id="result"></p>
+            </div>
               
-              function msg() {
-                var response = grecaptcha.getResponse()
-                var postvar = {
-                    "user_name"       : document.getElementById("fname").value,
-                    "user_site"       : document.getElementById("fsite").value,
-                    "page_name"       : page_name,
-                    "comment_data"    : document.getElementById("fcomment").value,
-                    "recaptcha_token" : response,
-                }
-
-                xmlhttp.open("POST", "https://api.lab-time.it/v1")
-                xmlhttp.setRequestHeader("Content-Type", "application/json")
-                xmlhttp.send(JSON.stringify(postvar))
-              }
               
-              </script>
-
+              <script src="{{ .Site.BaseURL }}/js/comment.js"></script>
 
             
+            
+
+            
+
             {{ $comment_prefix := "/data/comments/" }}
             {{ $post_comment_path := (print $comment_prefix $.Params.page_id) }}
             {{ $test_comment_path := readDir $post_comment_path }}
@@ -116,7 +111,7 @@
                     <td><b>Site: </b><a href="https://{{ .user_site }}">{{ .user_site }}</a></td>
                   </tr>
                   <tr>
-                    <td><b>Posted on: </b>{{ .comment_date }}</td>
+                    <td><b>Posted on: </b>{{ .comment_date }} (UTC)</td>
                   </tr>
                   <tr>
                     <td>{{ .comment | markdownify}}</td>
