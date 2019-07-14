@@ -30,7 +30,6 @@
             <hr>
             <h5>Comments</h5><br>
             <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
             <form>
                 <input type="button" value="show/hide comment form" onclick="show()" class="btn btn-outline-dark btn-sm"><br>
             </form>
@@ -40,12 +39,9 @@
                   <div class="form-group col-md-1"></div>
                   <div class="form-group col-md-5">
                     <label for="fname">Name</label>
-                    <input type="text" id="fname" class="form-control form-control-sm" required>
-                    <small id="fname-help" class="form-text text-muted">
+                    <input type="text" id="fname" class="form-control form-control-sm">
+                    <small id="passwordHelpBlock" class="form-text text-muted">
                       Required field, must be less than 100 characters
-                    </small>
-                    <small id="fname-check" class="form-text text-muted">
-                      <div><p id="fname-check-result"></p></div>
                     </small>
                   </div>
                   <div class="form-group col-md-5">
@@ -54,9 +50,6 @@
                     <small id="fsite-help" class="form-text text-muted">
                       Optional field, must be less than 100 characters
                     </small>
-                    <small id="fsite-check" class="form-text text-muted">
-                      <div><p id="fsite-check-result"></p></div>
-                    </small>
                   </div>
                   <div class="form-group col-md-1"></div>
                 </div>
@@ -64,12 +57,9 @@
                   <div class="form-group col-md-1"></div>
                     <div class="form-group col-md-10">
                       <label for="fcomment">Comment</label>
-                      <textarea type="text" name="fcomment" id="fcomment" value="Type your post here" rows="14" class="form-control" required></textarea>
+                      <textarea type="text" name="fcomment" id="fcomment" value="Type your post here" rows="14" class="form-control"></textarea>
                       <small id="fcomment-help" class="form-text text-muted">
                         Required field, must be less than 50000 characters. Comments may be formatted using <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a>
-                      </small>
-                      <small id="fcomment-check" class="form-text text-muted">
-                        <div><p id="fcomment-check-result"></p></div>
                       </small>
                     </div>
                   <div class="form-group col-md-1"></div>
@@ -78,9 +68,6 @@
                   <div class="form-group col-md-1"></div>
                   <div class="form-group col-md-10">
                     <div class="g-recaptcha" data-sitekey="6Lc-Eq0UAAAAAAsLTvxRbS-XeknRSrnZorDw1kHU"></div>
-                    <small id="recaptcha-check" class="form-text text-muted">
-                      <div><p id="recaptcha-check-result"></p></div>
-                    </small>
                   </div>
                   <div class="form-group col-md-1"></div>
                 </div>
@@ -89,9 +76,6 @@
                   <div class="form-group col-md-10">
                     <input type="button" value="submit comment" onclick="msg()" class="btn btn-outline-dark btn-sm"><br>
                   </div>
-                  <small id="fbutton-check" class="form-text text-muted">
-                    <div><p id="fbutton-check-result"></p></div>
-                  </small>
                   <div class="form-group col-md-1"></div>
                 </div>
               </form>
@@ -100,7 +84,7 @@
                 <div class="col-md-10"><p id="result"></p></div>
                 <div class="col-md-1"></div>
               </div>
-            </div>
+            </div>              
               
             <script src="{{ .Site.BaseURL }}/js/comment.js"></script>
 
