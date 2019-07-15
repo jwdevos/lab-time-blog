@@ -2,7 +2,7 @@
 date: 2016-08-11 21:55:15+00:00
 title: Building an MCSA lab with PfSense and VirtualBox
 url: /blogs/20160811-building-an-mcsa-lab-with-pfsense-and-virtualbox/
-page_id: _20160811_building_an_mcsa_lab_with_pfsense_and_virtualbox/
+page_id: _20160811_building_an_mcsa_lab_with_pfsense_and_virtualbox
 description: "In this post I'll explain how to build a lab environment on a single desktop computer so you can practice the MCSA curriculum and get ready for the exams."
 categories:
 - Lab
