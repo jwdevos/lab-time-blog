@@ -9,20 +9,16 @@ var xmlhttp = new XMLHttpRequest()
 
 xmlhttp.onreadystatechange = function() {
     if (xmlhttp.readyState == XMLHttpRequest.DONE) {
-        var ml = "HTTP response: " + xmlhttp.status + " "
+        var ml = ""
         if (xmlhttp.status == 200) {
-            ml = ml + "good request"
-            ml = ml + "<br>"
-            ml = ml + "<br>"
+            ml = ml + "<i class=\"fas fa-check\" style=\"color: lime\"></i> "
             ml = ml + "Thank you for submitting a comment. Your comment was received and processed successfully. " +
                 "Once the author approves the pull request <a href=\"https://github.com/jwdevos/lab-time-blog/pulls\">here</a>, your comment will become visible on this page."
         } else if (xmlhttp.status == 400) {
-            ml = ml + "bad request"
-            ml = ml + "<br>"
-            ml = ml + "<br>"
+            ml = ml + "<i class=\"fas fa-times\" style=\"color: red\"></i> "
             ml = ml + "Thank you for submitting a comment. Sadly, your input was not received or processed successfully. " +
     		    "This can be the result of the Lab Time backend being unavailable, or because of malformed data or failed input validation. " +
-		        "It's also possible you've tried to submit your comment twice. If you believe your post to be valid, please inform the author via Twitter, LinkedIn or Facebook."
+                "It's also possible you've tried to submit your comment twice. If you believe your post to be valid, please inform the author via Twitter, LinkedIn or Facebook."
         }
         document.getElementById("result").innerHTML = ml
     }
