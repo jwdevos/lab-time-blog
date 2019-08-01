@@ -24,11 +24,11 @@
             <a href="{{ .Site.BaseURL }}/"><button type="button" class="btn btn-outline-light btn-sm">Home</button></a>
             <div class="btn-group" role="group">
               <div class="dropdown">
-                <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle btn-outline-light btn-sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Series
-                </button>
+                <a href="{{ .Site.BaseURL }}/series/">
+                  <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle btn-outline-light btn-sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Series
+                  </button></a>
                 <div class="dropdown-menu dropdown-bg-color" aria-labelledby="btnGroupDrop1">
-                  <a class="dropdown-item dropdown-hover-color" href="{{ .Site.BaseURL }}/series/">Series Home</a>
                   <a class="dropdown-item dropdown-hover-color" href="{{ .Site.BaseURL }}/series/eve-ng/">Eve-NG</a>
                 </div>
               </div>

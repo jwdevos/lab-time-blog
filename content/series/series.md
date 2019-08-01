@@ -9,5 +9,3 @@ Welcome to the series on Lab Time. I've been wanting to start some series so I c
 
 * [Eve-NG](/series-eve-ng/)  
 Eve-NG is a valuable tool to build virtual networking labs. My posts about Eve-NG are now combined in a series. Future Eve-NG posts will also be listed here
-* [Juniper Studies](/series-juniper-studies/)  
-Most of my study efforts on the topic of Juniper networking are documented in this series. I included things like book summaries, lists of study materials and tips for labbing it all
