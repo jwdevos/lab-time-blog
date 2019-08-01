@@ -90,7 +90,7 @@ function msg() {
 
     if (fnameCheck && fsiteCheck && fcommentCheck && recaptchaCheck) {
         console.log("all true")
-        xmlhttp.open("POST", "https://khpygupxd6.execute-api.eu-central-1.amazonaws.com/v1")
+        xmlhttp.open("POST", "https://post.lab-time.it")
         xmlhttp.setRequestHeader("Content-Type", "application/json")
         xmlhttp.send(JSON.stringify(postvar))
     }
